@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImplicitIntentsApp</string>
+    <string name="ring">Ring</string>
+    <string name="xxx_xxx_xxxxx">(XXX) XXX - XXXXX</string>
+    <string name="phone">Phone:</string>
+    <string name="close_app">Close App</string>
+</resources>

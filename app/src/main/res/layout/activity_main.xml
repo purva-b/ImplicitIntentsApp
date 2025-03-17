@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Implicit Intents"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"/>
+
+    <!-- URL Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL:"/>
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="http://www.google.com"/>
+
+    <!-- Launch Button -->
+    <Button
+        android:id="@+id/launchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch"
+        android:background="#FFFF00"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Phone Number Input -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/xxx_xxx_xxxxx"/>
+
+    <!-- Ring Button -->
+    <Button
+        android:id="@+id/ringButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ring"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Close App Button -->
+    <Button
+        android:id="@+id/closeAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/close_app"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
